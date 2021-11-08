@@ -1,17 +1,11 @@
 # NormalBottomSheet
-A sliding Sheet from the bottom of the Screen built with SwiftUI.
+`NormalBottomSheet` makes it easy to add custom bottom sheets to your `SwiftUI` apps. 
 
-## Why
-
-### Features
+## Features
 - Dynamic height (works with `ScrollView` and **every** other view)
-- Fully customizable States (**any number of states at any height**)
-- Many options for **customization** (backgroundBlur, tapToDismiss, swipeToDismiss, etc.)
+- Many options for **customization**
 - Very **easy to use**
-- Support for **SearchBar** in the header
 - Flick through feature
-- Same behavior as Apple for the `.bottom` position
-- Beatuiful customizable **animations**
 
 ## Requirements 
 
@@ -23,13 +17,12 @@ A sliding Sheet from the bottom of the Screen built with SwiftUI.
 
 ### Swift Package Manager
 
-The preferred way of installing BottomSheet is via the [Swift Package Manager](https://swift.org/package-manager/).
+```
+https://github.com/danielsaidi/BottomSheet.git
+```
 
->Xcode 11 integrates with libSwiftPM to provide support for iOS, watchOS, and tvOS platforms.
+### CocoaPods
 
-1. In Xcode, open your project and navigate to **File** → **Swift Packages** → **Add Package Dependency...**
-2. Paste the repository URL (`https://github.com/LucasMucGH/BottomSheet`) and click **Next**.
-3. For **Rules**, select **Branch** (with branch set to `main`).
-4. Click **Finish**.
-
-https://raw.githubusercontent.com/LucasMucGH/BottomSheet/main/README.md
+```
+pod DSBottomSheet
+```
